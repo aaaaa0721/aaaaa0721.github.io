@@ -207,6 +207,7 @@ button i {
     -webkit-box-shadow: 0px 10px 14px -10px rgba(0, 0, 0, 0.2);
     box-shadow: 0px 10px 14px -10px rgba(0, 0, 0, 0.2);
     z-index: 99999999;
+    background-color: rgba(255, 255, 255, 0.95);
 }
 
 .navbar-light .navbar-nav .nav-link {
@@ -227,12 +228,14 @@ button i {
 }
 
 .navbar-brand {
-    font-size: 1.75rem;
-    font-family: 'Cute Font', cursive;
+    width: 100%;
+    font-size: 1.15rem;
+    font-family: 'Gamja Flower', cursive;
+    text-align: center !important;
 }
 
 .navbar-light .navbar-brand {
-    color: rgb(45, 44, 53);
+    color:#aaa;
 }
 
 .navbar-light .navbar-nav .nav-link:focus,
@@ -313,7 +316,7 @@ h6 {
     margin-top: 1rem;
     margin-bottom: 1rem;
     position: relative;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Gamja Flower', cursive;
 }
 
 h1:first-child,
@@ -367,7 +370,7 @@ h6 {
 p {
     font-weight: 300;
     line-height: 1.625em;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Gamja Flower', cursive;
     color: rgba(45, 44, 53, 0.9);
 }
 
@@ -393,7 +396,6 @@ footer h2 {
     font-size: 1.25em;
     line-height: 1.625em;
     color: rgba(45, 44, 53, 1);
-    font-family: 'Gamja Flower', cursive;
 }
 
 .blockquote {
@@ -607,7 +609,6 @@ footer h2 {
     line-height: 1.625em;
     margin-bottom: 1rem;
     margin-top: 1rem;
-    font-family: 'Raleway', sans-serif;
 }
 
 .social-link {
@@ -655,7 +656,6 @@ footer h2 {
     color: #fff;
     font-size: 1.953em;
     line-height: 1.625em;
-    font-family: 'Raleway', sans-serif;
     font-weight: 200;
 }
 
@@ -697,6 +697,8 @@ footer h2 {
 
 #story .tline-title {
     margin-top: 17px;
+    font-family: 'Patrick Hand', cursive;
+    word-spacing: 0.1em;
 }
 
 .tline-thumbnail {
@@ -870,6 +872,14 @@ footer h2 {
     margin-bottom: 2rem;
 }
 
+#blog .card .card-body h5 {
+    font-size: 1.75rem;
+}
+
+#blog .card .card-body p {
+    font-size: 1.25rem;
+}
+
 .card-img-top {
     display: block;
 }
@@ -887,7 +897,6 @@ footer h2 {
     line-height: 1.625em;
     margin-bottom: 19px;
     margin-top: 19px;
-    font-family: 'Raleway', sans-serif;
 }
 
 .people-img {
@@ -1220,6 +1229,8 @@ select.form-control:not([size]):not([multiple]) {
 #footer-bottom p {
     color: #727272;
     margin-bottom: 0;
+    width: 100%;
+    text-align: center;
 }
 
 /* 19 Loader
