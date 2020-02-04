@@ -35,12 +35,6 @@ Contact: https://themeforest.net/user/regediter
 /* 1 Base CSS
 ==================================================== */
 
-@supports (-webkit-overflow-scrolling: touch) {
-    body * {
-        background-attachment: scroll;
-    }
-}
-
 .relative-z {
     position: relative;
     z-index: 3;
