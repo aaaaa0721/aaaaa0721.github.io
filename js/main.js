@@ -5,7 +5,7 @@ $(window).on('load', function() {
 
     "use strict";
     // Load the page and wait 1s.
-    $('#loader').delay(1000).fadeOut('slow');
+    $('#loader').delay(500).fadeOut('slow');
 
 });
 
@@ -251,6 +251,7 @@ $(document).ready(function() {
         animateIn: 'flipInX',
         touchDrag: true,
         autoplay: true,
+        paginationSpeed: 100, 
         loop: true,
         items: 1,
         margin: 30,
