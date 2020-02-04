@@ -226,7 +226,7 @@ $(document).ready(function() {
         fixedContentPos: false
     });
 
-
+    
     /* Bootstrap Collapse
     -----------------------------------------------------------------------------------*/
 
