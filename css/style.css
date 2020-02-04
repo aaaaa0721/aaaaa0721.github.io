@@ -1028,6 +1028,11 @@ footer h2 {
     padding-right: 70px;
 }
 
+.event-address {
+    text-align: right;
+    font-size: 1.3em;
+}
+
 #accordion.line:before {
     background: none repeat scroll 0 0 #d2d2d2;
     bottom: 40px;
