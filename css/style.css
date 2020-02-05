@@ -1303,3 +1303,9 @@ footer h2 {
         padding: 0;
     }
 }
+
+@supports (-webkit-overflow-scrolling: touch) {
+    #blog, #comment, #footer {
+        background-attachment: scroll;
+    }
+}
